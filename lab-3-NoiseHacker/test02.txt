@@ -1,0 +1,7 @@
+SET 3
+ADD 3
+ADD 2
+
+ADD 10
+SUB 3
+

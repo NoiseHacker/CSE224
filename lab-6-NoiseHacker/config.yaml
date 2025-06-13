@@ -1,0 +1,25 @@
+nodes:
+  - nodeID: 0
+    host: "localhost"
+    port: 8000
+  - nodeID: 1
+    host: "localhost"
+    port: 8001
+  - nodeID: 2
+    host: "localhost"
+    port: 8002
+  - nodeID: 3
+    host: "localhost"
+    port: 8003
+  - nodeID: 4
+    host: "localhost"
+    port: 8004
+  - nodeID: 5
+    host: "localhost"
+    port: 8005
+  - nodeID: 6
+    host: "localhost"
+    port: 8006
+  - nodeID: 7
+    host: "localhost"
+    port: 8007

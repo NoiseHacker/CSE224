@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package numlog;
+option go_package = "numlog/numlog";
+
+message NumberEntry {
+	int64 ts = 1;
+	int32 number = 2;
+}

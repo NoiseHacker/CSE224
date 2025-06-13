@@ -1,0 +1,10 @@
+nohup: ignoring input
+2025/05/13 16:18:53 main.go:168: serverID: 1
+2025/05/13 16:18:53 main.go:169: inputFilePath: inputs/input_1.dat
+2025/05/13 16:18:53 main.go:170: outputFilePath: outputs/sorted_1.dat
+2025/05/13 16:18:53 main.go:171: configFilePath: config.yaml
+2025/05/13 16:18:53 main.go:178: Configured nodes: [{NodeID:0 Host:localhost Port:8000} {NodeID:1 Host:localhost Port:8001} {NodeID:2 Host:localhost Port:8002} {NodeID:3 Host:localhost Port:8003}]
+2025/05/13 16:18:53 main.go:196: Server started on localhost:8001, serving files from inputs/input_1.dat
+Received close signal #1
+Received close signal #2
+Received close signal #3

@@ -1,0 +1,29 @@
+# 1. Single-node single-record input
+./test.sh 0 1 split
+
+# 2. Single-node 10-record input
+./test.sh 0 10 split
+
+# 3. Single-node 10 MiB input
+./test.sh 0 10 multi
+
+# 4. 2-node single 1 MiB input
+./test.sh 1 1 split
+
+# 5. 2-node single 1 MiB input (all records assigned to node 0)
+./test.sh 1 1 allzero
+
+# 6. 2-node single 10 MiB input
+./test.sh 1 10 split
+
+# 7. 2-node multi 10 MiB inputs (each node gets 10 MiB)
+./test.sh 1 10 multi
+
+# 8. 8-node single 1 MiB input
+./test.sh 3 1 split
+
+# 9. 8-node single 10 MiB input
+./test.sh 3 10 split
+
+# 10. 8-node multi 10 MiB inputs (each node gets 10 MiB)
+./test.sh 3 10 multi

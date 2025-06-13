@@ -1,0 +1,33 @@
+syntax = "proto3";
+
+package sortlog;
+
+option go_package = "globesort/sortlog";
+
+message Record {
+  bytes key = 1;
+  bytes value = 2;
+}
+
+message Ack {
+  string message = 1;
+}
+
+message Empty {}
+
+message PingRequest {
+  string node_id = 1;
+}
+
+message PingResponse {
+  string message = 1;
+}
+
+service GlobeSort {
+  rpc Ping (PingRequest) returns (PingResponse);
+
+  rpc SendRecord (Record) returns (Ack);
+
+  rpc Close (Empty) returns (Ack);
+}
+

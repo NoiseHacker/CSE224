@@ -1,0 +1,7 @@
+SET 5
+MUL 4
+
+SET 2
+ADD 5
+SET 3
+

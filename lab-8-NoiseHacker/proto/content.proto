@@ -1,0 +1,43 @@
+syntax = "proto3";
+
+package proto;
+
+option go_package = "internal/proto";
+
+service StorageService {
+  rpc ReadFile(ReadFileRequest) returns (ReadFileResponse);
+  rpc WriteFile(WriteFileRequest) returns (WriteFileResponse);
+  rpc DeleteFile(DeleteFileRequest) returns (DeleteFileResponse);
+  rpc ListKeys(ListKeysRequest) returns (ListKeysResponse);
+}
+
+message ReadFileRequest {
+  string key = 1;
+}
+
+message ReadFileResponse {
+  bytes data = 1;
+}
+
+message WriteFileRequest {
+  string key = 1;
+  bytes data = 2;
+}
+
+message WriteFileResponse {
+  bool success = 1;
+}
+
+message DeleteFileRequest {
+  string key = 1;
+}
+
+message DeleteFileResponse {
+  bool success = 1;
+}
+
+message ListKeysRequest {}
+
+message ListKeysResponse {
+  repeated string keys = 1;
+}
