@@ -1,8 +1,7 @@
-# UCSD CSE224 Spring 2025 Quarter 🔱
+# UCSD🔱 CSE224 Spring 2025 Quarter
 
 Welcome to the UCSD CSE224: **Network Services** course repository for Spring 2025! This repository contains all nine labs completed during the course, covering Go concurrency, network services, and distributed systems development. Explore each `lab-*` directory for detailed implementations and instructions.
 
----
 
 ## 🎉 Lab 1: Go Introduction & Project Setup
 - Introduction to Go modules, package management, and basic syntax  
@@ -48,6 +47,5 @@ Welcome to the UCSD CSE224: **Network Services** course repository for Spring 20
 - Analyzed leader election and node state transitions  
 - Deployed nodes on AWS, observed IP changes, and studied election behaviors  
 
----
 
-Feel free to clone this repository and dive into each lab for more details. Happy coding! 🎓
+Feel free to clone this repository and dive into each lab for more details. Enjoy! 🎓
